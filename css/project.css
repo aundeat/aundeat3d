@@ -1,0 +1,78 @@
+.project-header{
+
+padding:30px 60px;
+
+}
+
+.back{
+
+color:white;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+.project-hero{
+
+max-width:1200px;
+
+margin:60px auto;
+
+}
+
+.project-hero img{
+
+width:100%;
+
+border-radius:10px;
+
+}
+
+
+.project-info{
+
+max-width:900px;
+
+margin:80px auto;
+
+line-height:1.7;
+
+}
+
+.project-info h1{
+
+font-size:40px;
+
+margin-bottom:20px;
+
+}
+
+.project-info h2{
+
+margin-top:40px;
+
+}
+
+.project-gallery{
+
+max-width:1200px;
+
+margin:60px auto;
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+gap:20px;
+
+}
+
+.project-gallery img{
+
+width:100%;
+
+border-radius:10px;
+
+}

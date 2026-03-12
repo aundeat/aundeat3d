@@ -1,79 +1,119 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="UTF-8">
-<title>Oleksandr Portfolio</title>
 
-<link href="CSS/stylesheet.css" rel="stylesheet" type="text/css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<title>Oleksandr | 3D Artist</title>
+
+<link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
 
-<header>
-<h1>Portfolio</h1>
+<header class="header">
+
+<div class="logo">Aundeat</div>
 
 <nav>
-<a href="#about">About me</a>
+
+<a href="#about">About</a>
 <a href="#works">Works</a>
+<a href="#viewer">3D</a>
 <a href="#contact">Contact</a>
+
 </nav>
+
 </header>
 
 
+
 <section class="hero">
-<h2>3D Artist / Designer</h2>
-<p>3D Modeling • Sculpting • Texturing</p>
+
+<div class="hero-content">
+
+<h1>3D Artist</h1>
+
+<p>Modeling • Compositing • Game Assets</p>
+
+<a href="#works" class="btn">View Portfolio</a>
+
+</div>
+
 </section>
+
 
 
 <section id="about" class="about">
 
-<img class="me" src="images/me.jpg" width="30%" height="30%" alt=""/>
-<div>
-  <h2>About me</h2>
-  
-  <p>
-    Ich befinde mich derzeit in einer Ausbildung zum Gestalter / Designer 
-    und suche eine Praxisstelle (Praktikum), bei der ich meine Kenntnisse
-    im Bereich 3D-Grafik vertiefen kann.
-  </p>
-  
-  <h3>Tools</h3>
-  
-  <ul>
-  <li>Blender</li>
-  <li>ZBrush</li>
-  <li>3ds Max</li>
-  
-  <li>Substance Painter</li>
-  <li>Unity</li>
-  <li>Photoshop</li>
-  </ul>
-  
+<img src="images/me.jpg" class="me">
+
+<div class="about-text">
+
+<h2>About me</h2>
+
+<p>
+I am a 3D Generalist with over 5 years of experience working in 3D. My main focus is on modeling, compositing, and game art. I create high-quality 3D assets and visuals for real-time applications and digital media. I enjoy combining artistic creativity with technical workflows to produce efficient and visually appealing results.
+
+</p>
+
+<h3>Tools</h3>
+
+<ul>
+
+<li>Blender</li>
+<li>ZBrush</li>
+<li>3ds Max</li>
+<li>Substance Painter</li>
+<li>Unity</li>
+<li>Photoshop</li>
+
+</ul>
+
 </div>
 
 </section>
+
 
 
 <section id="works">
 
-<h2 class="title">My Works</h2>
+<h2 class="section-title">Portfolio</h2>
 
 <div class="gallery">
 
-<a href="works/work1.html" class="work">
-<img src="images/work1.jpg">
-<p>Character </p>
+<a href="works/character.html" class="card">
+
+<img src="images/work1.png">
+
+<div class="overlay">
+<h3>Character</h3>
+</div>
+
 </a>
 
-<a href="works/work2.html" class="work">
-<img src="images/work2.png" alt=""/>
-<p>Game Prop</p>
+
+<a href="works/gameprop.html" class="card">
+
+<img src="images/work4.png">
+
+<div class="overlay">
+<h3>Game Art</h3>
+</div>
+
 </a>
 
-<a href="works/work3.html" class="work">
-<img src="images/work3.jpg"  alt=""/>
-<p>Design</p>
+
+<a href="works/design.html" class="card">
+
+<img src="images/work3.png">
+
+<div class="overlay">
+<h3>Design</h3>
+</div>
+
 </a>
 
 </div>
@@ -81,21 +121,64 @@
 </section>
 
 
-<section id="contact">
+<section id="viewer">
 
-<h2>Contact</h2>
+<h2 class="section-title">3D Viewer</h2>
 
-<ul><li>aundeat3d@gmail.com</li>
-	<li><a href="https://www.youtube.com/channel/UCC4Eft_NC1BrU6LQ011b8yg">Youtube</a> </li>
-	<li><a href="https://www.artstation.com/aundeat">Artstation</a></li><li><a href="https://t.me/aundeat3D">Telegram</a></li>
-	</ul>
+<div class="viewer">
+
+<iframe 
+title="3D Model"
+frameborder="0"
+allowfullscreen
+src="https://sketchfab.com/models/1e7e4a00e7a24dfba166443ed364079f/embed">
+</iframe>
+
+</div>
 
 </section>
 
 
+
+<section id="contact">
+
+<h2 class="section-title">Contact</h2>
+
+<div class="contacts">
+
+<a href="mailto:aundeat3d@gmail.com" class="contact-item">
+<i class="fa-solid fa-envelope"></i>
+<span>Email</span>
+</a>
+
+<a href="https://www.artstation.com/aundeat" class="contact-item">
+<i class="fa-brands fa-artstation"></i>
+<span>Artstation</span>
+</a>
+
+<a href="https://t.me/aundeat3D" class="contact-item">
+<i class="fa-brands fa-telegram"></i>
+<span>Telegram</span>
+</a>
+
+<a href="https://www.youtube.com/channel/UCC4Eft_NC1BrU6LQ011b8yg" class="contact-item">
+<i class="fa-brands fa-youtube"></i>
+<span>YouTube</span>
+</a>
+
+</div>
+
+</section>
+
+
+
 <footer>
-<p>© 2026 Oleksandr Portfolio</p>
+
+© 2026 Oleksandr | 3D Artist
+
 </footer>
+
+<script src="js/script.js"></script>
 
 </body>
 </html>
